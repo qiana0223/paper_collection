@@ -13,7 +13,7 @@ for data in gen_data:
     df_results = df_results.replace(np.nan, '&nbsp;')
 
     # write to a file
-    output_file_path=project_dir+data['mk_name']
+    output_file_path=project_dir+"markdown_files\\"+data['mk_name']
     if data['write_method']=='write_markdown_0':
         write_markdown_0(df_results,output_file_path,data['description'])
     elif data['write_method']=='write_markdown_1':

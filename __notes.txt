@@ -1,0 +1,11 @@
+
+#=================================
+March 16, 2023
+
+How to generate Markdown files:
+1, go to constants.py to prepare for the metadata for each markdown file
+2, execute generate_markdown.py
+
+
+#
+

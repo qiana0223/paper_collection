@@ -1,5 +1,5 @@
 
-def get_str_length(data:str,length:int=80):
+def get_str_length(data:str,length:int=70):
     if len(data)>length:
         re=data[0:length]
         for e in data[length:len(data)]:
